@@ -16,7 +16,7 @@ def main(file_path):
         for line in file:
             n = int(line.strip())
             p, q = factorize(n)
-            print(f"{n}={p}*{q}")
+            print(f"{n}={q}*{p}")
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
